@@ -25,3 +25,6 @@ A simple Bash script that creates a timestamped ZIP backup of a folder and keeps
 ## What I learned
 
 Bash variables, conditionals, exit codes, file permissions, pipes and automating cleanup tasks.
+
+# Author
+Author: Claudio Zanatta Casas
