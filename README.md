@@ -19,12 +19,15 @@ A simple Bash script that creates a timestamped ZIP backup of a folder and keeps
 1. Edit the variables at the top of the script (`ORIGEN`, `DESTINO`, `MANTENER`).
 2. Make it executable and run it:
 
-    chmod +x respaldo.sh
-    ./respaldo.sh
+```bash
+chmod +x respaldo.sh
+./respaldo.sh
+```
 
 ## What I learned
 
 Bash variables, conditionals, exit codes, file permissions, pipes and automating cleanup tasks.
 
-# Author
-Author: Claudio Zanatta Casas
+## Author
+
+Claudio Zanatta Casas
