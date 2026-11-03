@@ -8,6 +8,8 @@ FECHA=$(date +%Y-%m-%d_%H-%M)
 ARCHIVO="$DESTINO/practica_$FECHA.zip"
 MANTENER=3	
 
+echo "Iniciando respaldo de $HOME/$ORIGEN..."
+
 # 2. Revisar que la carpeta a respaldar exista
 if [ ! -d "$HOME/$ORIGEN" ]; then
     echo "Error: no existe la carpeta $HOME/$ORIGEN"
