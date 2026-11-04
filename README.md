@@ -1,6 +1,6 @@
 # Bash Backup Script
 
-A simple Bash script that creates a timestamped ZIP backup of a folder and keeps only the most recent backups.
+A lightweight Bash tool to back up folders and clean old backups.
 
 ## Features
 
