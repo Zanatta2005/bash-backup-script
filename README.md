@@ -28,6 +28,15 @@ chmod +x respaldo.sh
 
 Bash variables, conditionals, exit codes, file permissions, pipes and automating cleanup tasks.
 
+## Example output
+
+```
+Iniciando respaldo de /home/user/practica...
+Respaldo creado: /home/user/respaldos/practica_2026-10-31_22-08.zip
+Tamaño del respaldo:
+4.0K    /home/user/respaldos/practica_2026-10-31_22-08.zip
+```
+
 ## Author
 
 Claudio Zanatta Casas
