@@ -1,4 +1,5 @@
 #!/bin/bash
+# Author: Claudio Zanatta Casas
 # Respalda la carpeta practica en un zip con la fecha en el nombre
 
 # 1. Variables
