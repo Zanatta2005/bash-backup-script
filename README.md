@@ -1,6 +1,6 @@
 # Bash Backup Script
 
-A Bash script that automates timestamped ZIP backups.
+A lightweight Bash script that automates timestamped ZIP backups and cleans old ones.
 
 ## Features
 
