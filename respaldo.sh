@@ -28,6 +28,7 @@ zip -r -q "$ARCHIVO" "$ORIGEN"
 echo "Respaldo creado: $ARCHIVO"
 echo "Tamaño del respaldo:"
 du -h "$ARCHIVO"
+echo "Archivos en el respaldo: $(unzip -l "$ARCHIVO" | tail -n 1 | awk '{print $2}')"
 
 # 6. Borrar respaldos viejos, dejando solo los más recientes
 cd "$DESTINO"
